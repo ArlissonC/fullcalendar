@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 10px;
+  --border-color: #e5e5e5;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.fc-theme-standard .fc-scrollgrid {
+  @apply rounded-xl border-solid border;
+}
+
+.fc .fc-scrollgrid {
+  @apply border-separate border-r border-b;
+}
+
+.fc-scrollgrid td,
+.fc-scrollgrid th {
+  @apply border-r-[0.625rem] border-blue-50 border-r-transparent;
+}
+
+.fc-col-header-cell {
+  @apply uppercase font-bold text-sm;
+}
+
+.fc-daygrid-day-top {
+  @apply ml-2 flex-row !important;
+}
+
+.fc-daygrid-day-number {
+  @apply uppercase font-medium text-sm mt-1;
+}
+
+.fc-day-today {
+  @apply bg-transparent !important;
+}
+
+.fc-day-today .fc-daygrid-day-number {
+  @apply font-bold flex flex-col w-6 h-7 rounded-[50%] text-sm text-white text-center bg-slate-500;
+}
+
+.fc .fc-timegrid-slot {
+  @apply h-8 rounded-b-none;
+}
+
+.fc-h-event .fc-event-main-frame {
+  @apply flex;
+}
+
+.fc-daygrid-event,
+.fc-timegrid-event {
+  @apply rounded-sm;
+}
+
+.fc-daygrid-day-events {
+  @apply pl-1;
+}
+
+.fc-timegrid-event {
+  @apply h-fit;
+}
+
+.fc .fc-list-sticky .fc-list-day > * {
+  @apply sticky top-0 bg-transparent;
+}
+
+.fc .fc-toolbar {
+  @apply flex-col sm:flex-row;
+}
