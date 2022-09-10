@@ -13,8 +13,6 @@ Projeto desenvolvido inspirado no google agenda. Para gerenciamento de estados n
 
 ## 💻 Tecnologias
 
-Front-end
-
 - React
 - Recoil
 - Tailwind CSS
