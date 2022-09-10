@@ -9,7 +9,7 @@ https://user-images.githubusercontent.com/85974593/189466454-7689efb4-eae3-4613-
 
 ## Sobre o projeto
 
-Projeto desenvolvido inspirado no google agenda utilizando a lib FullCalendar. Para gerenciamento de estados no React foi utilizado Recoil e para estilização Tailwind CSS .
+Projeto desenvolvido inspirado no google agenda. Para gerenciamento de estados no React foi utilizado Recoil e para estilização Tailwind CSS .
 
 ## 💻 Tecnologias
 
